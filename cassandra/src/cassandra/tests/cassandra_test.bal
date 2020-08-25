@@ -76,7 +76,7 @@ function test_select_values() {
     }
 }
 
-@test:AfterSuite
+@test:AfterSuite {}
 function afterSuiteFunc() {
     var result = conn->update("DROP KEYSPACE testballerina");
     handleUpdate(result, "Drop keyspace testballerina");

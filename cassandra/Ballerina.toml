@@ -18,38 +18,3 @@ path = "../cassandra-utils/target/classes/lib/cassandra-driver-core-3.6.0.jar"
 artifactId = "cassandra-driver-core"
 version = "3.6.0"
 groupId = "com.datastax.cassandra"
-
-[[platform.libraries]]
-module = "cassandra"
-path = "../cassandra-utils/target/classes/lib/cassandra-all-3.11.2.jar"
-artifactId = "cassandra-all"
-version = "3.11.2"
-groupId = "com.datastax.cassandra"
-
-[[platform.libraries]]
-module = "cassandra"
-path = "../cassandra-utils/target/classes/lib/cassandra-thrift-3.11.2.jar"
-artifactId = "cassandra-thrift"
-version = "3.11.2"
-groupId = "com.datastax.cassandra"
-
-[[platform.libraries]]
-module = "cassandra"
-path = "../cassandra-utils/target/classes/lib/guava-19.0.jar"
-artifactId = "guava"
-version = "19.0"
-groupId = "com.google.guava"
-
-[[platform.libraries]]
-module = "cassandra"
-path = "../cassandra-utils/target/classes/lib/netty-all-4.1.49.Final.jar"
-artifactId = "netty-all"
-version = "4.1.49.Final"
-groupId = "io.netty"
-
-[[platform.libraries]]
-module = "cassandra"
-path = "../cassandra-utils/target/classes/lib/metrics-core-3.2.2.jar"
-artifactId = "metrics-core"
-version = "3.2.2"
-groupId = "om.codahale.metrics"
